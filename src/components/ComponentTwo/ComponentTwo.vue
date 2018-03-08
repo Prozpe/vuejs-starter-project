@@ -1,5 +1,6 @@
 <template>
   <div id="ComponentTwo">
+    <h5 className="heading">Component Two</h5>
     <input placeholder="type colour" type="text" v-model="keyword" />
     <div class="box" v-bind:style="{backgroundColor: keyword}"></div>
   </div>
