@@ -2,12 +2,14 @@
   <div>
     <ComponentOne />
     <ComponentTwo />
+    <Fetch />
   </div>
 </template>
 
 <script>
 import ComponentOne from './components/ComponentOne/ComponentOne';
 import ComponentTwo from './components/ComponentTwo/ComponentTwo';
+import Fetch from './components/Fetch/Fetch';
 
 export default {
   name: 'app',
@@ -21,6 +23,7 @@ export default {
   components: {
     ComponentOne,
     ComponentTwo,
+    Fetch,
   },
 };
 </script>
