@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import ComponentOne from './components/ComponentOne';
-import ComponentTwo from './components/ComponentTwo';
+import ComponentOne from './components/ComponentOne/ComponentOne';
+import ComponentTwo from './components/ComponentTwo/ComponentTwo';
 
 export default {
   name: 'app',
