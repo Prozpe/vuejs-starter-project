@@ -1,6 +1,6 @@
 <template>
   <div class="fetch">
-  <h5 className="heading">Fetch Example</h5>
+  <h5 className="heading">Fetch with Axios</h5>
   <ul>
     <li v-for="value in posts.data" :key="value">
         {{value.first_name}} {{value.last_name}}
