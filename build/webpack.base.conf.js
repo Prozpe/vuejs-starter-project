@@ -75,19 +75,8 @@ module.exports = {
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
       }
-    ],
-    loaders: [
-      {
-        test: /\.vue$/,
-        loader: 'vue'
-      }, 
-      {
-          test: /\.s[a|c]ss$/,
-          loader: 'style!css!sass'
-      }
     ]
   },
-  
   node: {
     // prevent webpack from injecting useless setImmediate polyfill because Vue
     // source contains it (although only uses it if it's native).
